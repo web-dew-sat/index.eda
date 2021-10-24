@@ -6,6 +6,26 @@ body {
     padding: 0;
     margin: 0;
 }
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+.button {
+    border-radius: 25px;
+    padding: 13px 52px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+/***Header***/
+
+
 .header {
     display: flex;
     padding-top: 10px;
@@ -15,9 +35,7 @@ body {
     max-width: 1194px;
     margin: auto;
 }
-.logo-image {
-    /* margin: 0 76px 15px 123px; */
-}
+
 .search-form {
     position: relative;
     margin-left: 76px;
@@ -80,5 +98,96 @@ body {
     position: absolute;
     right: 0;
     bottom: 0;
+}
 
+
+/*** First screen***/
+
+.main {
+    margin-top: 20px;
+}
+.slide {
+    border-radius: 20px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    padding-left: 100px;
+
+}
+.slide-content {
+    max-width: 388px;
+}
+.slide-title {
+    font-size: 50px;
+    line-height: 51px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.slide-text {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 32px;
+}
+.button-primary {
+    background: #F47322;
+    color: #fff;
+}
+
+.slide-summer {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url('../img/summer.png') no-repeat center center / cover;
+}
+.promo {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    border-radius: 20px;
+    padding-left: 32px;
+    color: #fff;
+    width: 570px;
+    padding-top: 35px;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sweet-basket {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/sweet-basket.png') no-repeat center center / cover;
+}
+.minimum-effort {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../img/minimum-effort.png') no-repeat center / cover;
+}
+.card-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    margin-bottom: 21px;
+}
+.card-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;  
+    max-width: 200px;
+}
+.card-price {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 23px;
+    display: block;
+    margin-bottom: 8px;
+}
+.card-delivery {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    margin-bottom: 25px;
+    display: block;
+}
+.button-default {
+    background: #FFFFFF;
+    color: #5F5F61;
+    margin-bottom: 31px;
 }
